@@ -1,1 +1,1 @@
-# devops-netology
+# devops-netology Домашние задания - `Залиського Сергея` 
