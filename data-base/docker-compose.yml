@@ -1,0 +1,26 @@
+version: “3"
+
+
+services:
+  netology-db:
+    image: postgres:12 # Образ, который мы будем использовать
+    container_name: test-db # Имя, которым будет называться наш контейнер
+    ports: # Порты, которые мы пробрасываем с нашего докер сервера внутрь контейнера
+      - 5432:5432
+    volumes: # Папка, которую мы пробросим с докер сервера внутрь контейнера
+      - ./pg_data:/var/lib/postgresql/data/pgdata
+      - ./pg_backup:/var/lib/postgresql/data/pgbackup
+    environment: # Переменные среды
+      POSTGRES_PASSWORD: 12345 # Задаём пароль от пользователя postgres
+      PGDATA: /var/lib/postgresql/data/pgdata
+    networks:
+      nt:
+        ipv4_address: 172.22.0.2
+    restart: always # Режим перезапуска контейнера. Контейнер всегда будет перезапускаться
+
+networks:
+  nt:
+    driver: bridge
+    ipam:
+      config:
+      - subnet: 172.22.0.0/24
