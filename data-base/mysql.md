@@ -22,7 +22,7 @@
 - Версия сервера
 ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-version.jpg)
 - Количество записей с price > 30
-![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-price.jpg)
+![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-price.jpg)
 
 
 ## Задача 2
@@ -60,7 +60,7 @@
 - Движок в test_db
 ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-engine.jpg)
 - Время выполнения и запрос на MyISAM
-![screenshot-2]https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-myisam.jpg)
+![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-myisam.jpg)
 - Время выполнения и запрос на InnoDB
 ![screenshot-3](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-innodb.jpg)
 
