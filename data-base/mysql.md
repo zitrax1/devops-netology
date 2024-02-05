@@ -19,9 +19,9 @@
 
 В следующих заданиях мы будем продолжать работу с этим контейнером.
 
-1.Версия сервера
+- Версия сервера
 ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-version.jpg)
-2.Количество записей с price > 30
+- Количество записей с price > 30
 ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-price.jpg)
 
 
@@ -42,7 +42,7 @@
 Используя таблицу INFORMATION_SCHEMA.USER_ATTRIBUTES, получите данные по пользователю `test` и 
 **приведите в ответе к задаче**.
 
-1. Пользователь test
+- Пользователь test
 ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-select1.jpg)
 
 ## Задача 3
@@ -57,11 +57,11 @@
 - на `InnoDB`.
 
 
-1. Движок в test_db
+- Движок в test_db
 ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-engine.jpg)
-2. Время выполнения и запрос на MyISAM
-![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-myisam.jpg)
-3. Время выполнения и запрос на InnoDB
+- Время выполнения и запрос на MyISAM
+![screenshot-2]https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-myisam.jpg)
+- Время выполнения и запрос на InnoDB
 ![screenshot-3](https://github.com/zitrax1/devops-netology/blob/main/data-base/img/mysql-innodb.jpg)
 
 ## Задача 4 
