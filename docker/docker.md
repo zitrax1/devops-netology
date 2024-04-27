@@ -122,8 +122,11 @@ services:
 [compose.yaml](https://github.com/zitrax1/devops-netology/blob/main/docker/compose.yaml)
 
 1.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_1.jpg)
+
 2.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_2.jpg)
+
 3.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_3.jpg)
+
 4.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_4.jpg)
 
 
