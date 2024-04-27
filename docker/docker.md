@@ -119,6 +119,8 @@ services:
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
+[compose.yaml](https://github.com/zitrax1/devops-netology/blob/main/docker/compose.yaml)
+
 1.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_1.png)
 2.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_2.png)
 3.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_3.png)
