@@ -18,7 +18,8 @@ Hey, Netology
 </html>
 ```
 - Соберите и отправьте созданный образ в свой dockerhub-репозитории c tag 1.0.0 . 
-- Предоставьте ответ в виде ссылки на https://hub.docker.com/<username_repo>/custom-nginx/general .
+- Предоставьте ответ в виде ссылки на https://hub.docker.com/kritum/custom-nginx/general . - не знаю в чем причина, но такой ссылки не вышло есть другая https://hub.docker.com/r/kritum/custom-nginx/tags
+
 
 ## Задача 2
 1. Запустите ваш образ custom-nginx:1.0.0 командой docker run в соответвии с требованиями:
@@ -118,10 +119,9 @@ services:
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
----
-
-### Правила приема
-
-Домашнее задание выполните в файле readme.md в GitHub-репозитории. В личном кабинете отправьте на проверку ссылку на .md-файл в вашем репозитории.
+1.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_1.png)
+2.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_2.png)
+3.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_3.png)
+4.![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/docker/img/docker_5_4.png)
 
 
