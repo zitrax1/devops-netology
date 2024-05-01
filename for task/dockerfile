@@ -1,0 +1,16 @@
+FROM ubuntu:22.04
+
+RUN apt-get update
+RUN apt-get -y install ruby
+RUN apt-get -y install cron
+
+ADD ruby-cron /etc/cron.d/ruby-cron
+RUN touch /var/log/cron.log
+RUN chmod 0644 /etc/cron.d/ruby-cron
+RUN crontab /etc/cron.d/ruby-cron
+
+RUN mkdir -p /ruby
+COPY ./ruby.rb /ruby
+RUN chmod 0777 /ruby/ruby.rb
+
+CMD ["cron", "-f"]
