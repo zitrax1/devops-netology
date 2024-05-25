@@ -10,3 +10,4 @@
 ## Docker
 
 1. [Залиський Сергей. Оркестрация группой Docker контейнеров на примере Docker Compose](https://github.com/zitrax1/devops-netology/blob/main/docker/docker.md)
+2. [Залиський Сергей. Практическое применение Docker](https://github.com/zitrax1/devops-netology/blob/main/docker_prc/docker_prc.md)
