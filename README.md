@@ -16,7 +16,7 @@
 
 1. [Залиський Сергей. Введение в Terraform](https://github.com/zitrax1/devops-netology/blob/main/terraform/terraform_hw1.md)
 2. [Залиський Сергей. Основы Terraform. Yandex Cloud](https://github.com/zitrax1/devops-netology/blob/main/terraform/terraform_hw2.md)
-
+3. [Залиський Сергей. Управляющие конструкции в коде Terraform](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/terraform_hw3.md)
 
 ## Ansible
 [Залиський Сергей. Введение в Ansible](https://github.com/zitrax1/devops-netology/blob/main/ansible/ansible_hw1.md)
