@@ -10,14 +10,14 @@
 
 Приложите скриншот входящих правил «Группы безопасности» в ЛК Yandex Cloud или скриншот отказа в предоставлении доступа к preview-версии.
 
-![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/terraform/img/hw_3.1.jpg)
+![screenshot-1](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/img/hw_3.1.jpg)
 
 ------
 
 ### Задание 2
 
 1. Создайте файл count-vm.tf. Опишите в нём создание двух **одинаковых** ВМ  web-1 и web-2 (не web-0 и web-1) с минимальными параметрами, используя мета-аргумент **count loop**. Назначьте ВМ созданную в первом задании группу безопасности.(как это сделать узнайте в документации провайдера yandex/compute_instance )
-2. Создайте файл for_each-vm.tf. Опишите в нём создание двух ВМ для баз данных с именами "main" и "replica" **разных** по cpu/ram/disk_volume , используя мета-аргумент **for_each loop**. Используйте для обеих ВМ одну общую переменную типа:
+2. Создайте файл for_each-vm.tf. Опишите в нём создание двух ВМ для баз данных с именами "terraform-03" и "replica" **разных** по cpu/ram/disk_volume , используя мета-аргумент **for_each loop**. Используйте для обеих ВМ одну общую переменную типа:
 ```
 variable "each_vm" {
   type = list(object({  vm_name=string, cpu=number, ram=number, disk_volume=number }))
@@ -66,11 +66,11 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 ### Решение
 
 ###ссылки на tf файлы
-1) [main.tf](https://github.com/zitrax1/devops-netology/blob/main/terraform/HW3/main.tf)
-2) [vms_platform.tf](https://github.com/zitrax1/devops-netology/blob/main/terraform/HW3/vms_platform.tf)
-3) [variables.tf](https://github.com/zitrax1/devops-netology/blob/main/terraform/HW3/variables.tf)
-4) [for_each-vm.tf](https://github.com/zitrax1/devops-netology/blob/main/terraform/HW3/for_each-vm.tf)
-5) [count-vm.tf](https://github.com/zitrax1/devops-netology/blob/main/terraform/HW3/count-vm.tf)
-6) [disk_vm.tf](https://github.com/zitrax1/devops-netology/blob/main/terraform/HW3/disk_vm.tf)
-7) [ansible.tf](https://github.com/zitrax1/devops-netology/blob/main/terraform/HW3/ansible.tf)
+1) [main.tf](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/HW3/main.tf)
+2) [vms_platform.tf](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/HW3/vms_platform.tf)
+3) [variables.tf](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/HW3/variables.tf)
+4) [for_each-vm.tf](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/HW3/for_each-vm.tf)
+5) [count-vm.tf](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/HW3/count-vm.tf)
+6) [disk_vm.tf](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/HW3/disk_vm.tf)
+7) [ansible.tf](https://github.com/zitrax1/devops-netology/blob/terraform-03/terraform/HW3/ansible.tf)
 
