@@ -63,3 +63,55 @@
       service:
         name: vector
         state: restarted
+- name: Install Lighthouse and Nginx
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Install Nginx
+      ansible.builtin.apt:
+        name: nginx
+        state: present
+
+    - name: Download Lighthouse
+      ansible.builtin.get_url:
+        url: "https://github.com/VKCOM/lighthouse/archive/refs/heads/master.zip"
+        dest: "/tmp/lighthouse.tar.gz"
+
+    - name: Extract Lighthouse
+      ansible.builtin.unarchive:
+        src: "/tmp/lighthouse.tar.gz"
+        dest: "/var/www/html/lighthouse"
+        remote_src: true
+
+    - name: Configure Nginx for Lighthouse
+      ansible.builtin.copy:
+        content: |
+          server {
+              listen 8081;
+              server_name localhost;
+
+              location / {
+                  root /var/www/html/lighthouse/lighthouse-master;
+                  index index.html;
+              }
+          }
+        dest: /etc/nginx/conf.d/lighthouse.conf
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Enable Lighthouse Nginx configuration
+      ansible.builtin.file:
+        src: /etc/nginx/sites-available/lighthouse
+        dest: /etc/nginx/sites-enabled/lighthouse
+        state: link
+
+    - name: Remove default Nginx configuration
+      ansible.builtin.file:
+        path: /etc/nginx/sites-enabled/default
+        state: absent
+
+    - name: Restart Nginx
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
