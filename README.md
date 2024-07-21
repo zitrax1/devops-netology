@@ -20,3 +20,8 @@
 
 ## Ansible
 [Залиський Сергей. Введение в Ansible](https://github.com/zitrax1/devops-netology/blob/main/ansible/ansible_hw1.md)
+
+
+
+## Непрерывная разработка и интеграция
+[Залиський Сергей.Непрерывная разработка и интеграция](https://github.com/zitrax1/devops-netology/blob/main/hw-9/jira_hw.md)
