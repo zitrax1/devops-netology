@@ -29,10 +29,3 @@
 Этот параметр вычисляется по формуле: summ_2xx_requests/summ_all_requests. Он не поднимается выше 70%, но при этом в вашей системе нет кодов ответа 5xx и 4xx. Где у вас ошибка?
 
 Ответ: возможно наличие ошибок 1хх и 3хх
-
-Решение:
-1. [bug workflow](https://github.com/zitrax1/devops-netology/blob/main/hw-9/bug-workflow.xml)
-2. [other tasks](https://github.com/zitrax1/devops-netology/blob/main/hw-9/other-tasks.xml)
-3. ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/hw-9/img/hw_1.1.jpg)
-4. ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/hw-9/img/hw_1.2.jpg)
----
