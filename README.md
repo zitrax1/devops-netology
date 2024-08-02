@@ -25,3 +25,8 @@
 
 ## Непрерывная разработка и интеграция
 [Залиський Сергей.Непрерывная разработка и интеграция](https://github.com/zitrax1/devops-netology/blob/main/hw-9/jira_hw.md)
+[Залиський Сергей.teamcity](https://github.com/zitrax1/example-teamcity)
+
+
+## Введение в мониторинг
+[Залиський Сергей.Введение в мониторинг»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/intro.md)
