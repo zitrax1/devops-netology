@@ -30,16 +30,16 @@
 
 Решение:
 - утилизация CPU для nodeexporter (в процентах, 100-idle);
-'100 - (avg by(instance) (rate(node_cpu_seconds_total{job="nodeexporter", mode="idle"}[5m])) * 100)'
+`100 - (avg by(instance) (rate(node_cpu_seconds_total{job="nodeexporter", mode="idle"}[5m])) * 100)`
 
 - CPULA 1/5/15;
-'100 - (avg(irate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)' '100 - (avg(irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)' '100 - (avg(irate(node_cpu_seconds_total{mode="idle"}[15m])) * 100)'
+`100 - (avg(irate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)` `100 - (avg(irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)` `100 - (avg(irate(node_cpu_seconds_total{mode="idle"}[15m])) * 100)`
 
 - количество свободной оперативной памяти;
-'node_memory_MemAvailable_bytes{job="nodeexporter"} / 1024 / 1024 /1024'
+`node_memory_MemAvailable_bytes{job="nodeexporter"} / 1024 / 1024 /1024`
 
 - количество места на файловой системе
-'node_filesystem_avail_bytes{job="nodeexporter",fstype!~"tmpfs|fuse.lxcfs|squashfs"} / 1024 / 1024 / 1024'
+`node_filesystem_avail_bytes{job="nodeexporter",fstype!~"tmpfs|fuse.lxcfs|squashfs"} / 1024 / 1024 / 1024`
 
 ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/monitoring/img/grafana_2.jpg)
 
