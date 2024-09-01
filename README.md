@@ -31,3 +31,4 @@
 ## Введение в мониторинг
 [Залиський Сергей.Введение в мониторинг»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/intro.md)
 [Залиський Сергей.Средство визуализации Grafana»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/grafana.md)
+[Залиський Сергей.Платформа мониторинга Sentry»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/sentry.md)
