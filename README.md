@@ -35,3 +35,7 @@
 
 ## Микросервисы 
 [Залиський Сергей.Микросервисы: принципы»](https://github.com/zitrax1/devops-netology/blob/main/microtransactions/microtransactions_1.md)
+
+
+## Kubernetes
+[Залиський Сергей.Kubernetes. Причины появления. Команда kubectl»](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_1.md)
