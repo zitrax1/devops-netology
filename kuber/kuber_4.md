@@ -39,8 +39,8 @@
 3. Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
 
 Решение:
-1) [screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_4.1.jpg)
-2) [screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_4.2.jpg)
-3) [манифест pod](https://github.com/zitrax1/devops-netology/blob/main/kuber/hw4/deployment.yaml)
-4) [манифест nodesvc](https://github.com/zitrax1/devops-netology/blob/main/kuber/hw4/nodesvc.yaml)
-5) [манифест service](https://github.com/zitrax1/devops-netology/blob/main/kuber//hw4/service.yaml)
+ ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_4.1.jpg)
+ ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_4.2.jpg)
+1) [манифест pod](https://github.com/zitrax1/devops-netology/blob/main/kuber/hw4/deployment.yaml)
+2) [манифест nodesvc](https://github.com/zitrax1/devops-netology/blob/main/kuber/hw4/nodesvc.yaml)
+3) [манифест service](https://github.com/zitrax1/devops-netology/blob/main/kuber//hw4/service.yaml)
