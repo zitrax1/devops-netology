@@ -41,3 +41,4 @@
 [Залиський Сергей.Kubernetes. Причины появления. Команда kubectl»](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_1.md)
 [Залиський Сергей.Kubernetes. Базовые объекты K8S](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_2.md)
 [Залиський Сергей.Kubernetes. Запуск приложений в K8S](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_3.md)
+[Залиський Сергей.Kubernetes. Сетевое взаимодействие в K8S. Часть 1](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_4.md)
