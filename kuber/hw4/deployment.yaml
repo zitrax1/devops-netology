@@ -21,4 +21,6 @@ spec:
           image: wbitt/network-multitool:latest
           ports:
             - containerPort: 8080
-          command: ["/bin/sh", "-c", "sleep infinity"]
+          env:
+            - name: HTTP_PORT
+              value: "8080"
