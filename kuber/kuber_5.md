@@ -40,10 +40,13 @@
 3. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
 4. Предоставить манифесты и скриншоты или вывод команды п.2.
 
-Решение:
- ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_5.1.jpg)
- ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_5.2.jpg)
- ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_5.2.jpg)
+### Решение:
+
+1) ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_5.1.jpg)
+2) ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_5.2.jpg)
+3) ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/kuber/img/kuber_5.2.jpg)
+
+### манифесты:
 1) [манифест deploy](https://github.com/zitrax1/devops-netology/blob/main/kuber/hw5/deployment.yaml)
 2) [манифест nginxdeploy](https://github.com/zitrax1/devops-netology/blob/main/kuber/hw5/nginxdeploy.yaml)
 3) [манифест ingress](https://github.com/zitrax1/devops-netology/blob/main/kuber//hw5/ingress.yaml)

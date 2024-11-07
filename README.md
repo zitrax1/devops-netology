@@ -24,22 +24,22 @@
 
 
 ## Непрерывная разработка и интеграция
-[Залиський Сергей.Непрерывная разработка и интеграция](https://github.com/zitrax1/devops-netology/blob/main/hw-9/jira_hw.md)
-[Залиський Сергей.teamcity](https://github.com/zitrax1/example-teamcity)
+1. [Залиський Сергей.Непрерывная разработка и интеграция](https://github.com/zitrax1/devops-netology/blob/main/hw-9/jira_hw.md)
+2. [Залиський Сергей.teamcity](https://github.com/zitrax1/example-teamcity)
 
 
 ## Введение в мониторинг
-[Залиський Сергей.Введение в мониторинг»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/intro.md)
-[Залиський Сергей.Средство визуализации Grafana»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/grafana.md)
-[Залиський Сергей.Платформа мониторинга Sentry»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/sentry.md)
+1. [Залиський Сергей.Введение в мониторинг»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/intro.md)
+2. [Залиський Сергей.Средство визуализации Grafana»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/grafana.md)
+3. [Залиський Сергей.Платформа мониторинга Sentry»](https://github.com/zitrax1/devops-netology/blob/main/monitoring/sentry.md)
 
 ## Микросервисы 
 [Залиський Сергей.Микросервисы: принципы»](https://github.com/zitrax1/devops-netology/blob/main/microtransactions/microtransactions_1.md)
 
 
 ## Kubernetes
-[Залиський Сергей.Kubernetes. Причины появления. Команда kubectl»](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_1.md)
-[Залиський Сергей.Kubernetes. Базовые объекты K8S](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_2.md)
-[Залиський Сергей.Kubernetes. Запуск приложений в K8S](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_3.md)
-[Залиський Сергей.Kubernetes. Сетевое взаимодействие в K8S. Часть 1](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_4.md)
-[Залиський Сергей.Kubernetes. Сетевое взаимодействие в K8S. Часть 2](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_5.md)
+1. [Залиський Сергей.Kubernetes. Причины появления. Команда kubectl»](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_1.md)
+2. [Залиський Сергей.Kubernetes. Базовые объекты K8S](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_2.md)
+3. [Залиський Сергей.Kubernetes. Запуск приложений в K8S](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_3.md)
+4. [Залиський Сергей.Kubernetes. Сетевое взаимодействие в K8S. Часть 1](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_4.md)
+5. [Залиський Сергей.Kubernetes. Сетевое взаимодействие в K8S. Часть 2](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_5.md)
