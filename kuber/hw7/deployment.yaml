@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multibox
+  template:
+    metadata:
+      labels:
+        app: multibox
+    spec:
+      containers:
+        - name: multitool
+          image: wbitt/network-multitool:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: HTTP_PORT
+              value: "8080"
+          volumeMounts:
+            - name: shared-volume
+              mountPath: "/mnt/storage"
+        - name: busybox
+          image: busybox
+          command: [ "sh", "-c", "while [ true ]; do echo 'Hello' >> /mnt/storage/hello; sleep 10; done" ]
+          volumeMounts:
+            - name: shared-volume
+              mountPath: "/mnt/storage"
+      volumes:
+        - name: shared-volume
+          persistentVolumeClaim:
+            claimName: local-pvc
+
+
+---
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: local-pv
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: ""
+  hostPath:
+    path: "/mnt/data" # Локальный путь на узле
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: local-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: ""
+  resources:
+    requests:
+      storage: 1Gi
