@@ -45,3 +45,4 @@
 5. [Залиський Сергей.Kubernetes. Сетевое взаимодействие в K8S. Часть 2](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_5.md)
 6. [Залиський Сергей.Kubernetes. Хранение в K8s. Часть 1](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_6.md)
 7. [Залиський Сергей.Kubernetes. Хранение в K8s. Часть 2](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_7.md)
+8. [Залиський Сергей.Kubernetes. Конфигурация приложений](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_8.md)

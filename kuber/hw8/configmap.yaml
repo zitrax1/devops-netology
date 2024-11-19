@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: multiport
+data:
+  port: "8080"
+  index.html: |
+    testing configmap
