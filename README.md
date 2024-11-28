@@ -48,3 +48,7 @@
 8. [Залиський Сергей.Kubernetes. Конфигурация приложений](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_8.md)
 9. [Залиський Сергей.Kubernetes. правление доступом](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_9.md)
 10. [Залиський Сергей.Kubernetes. Компоненты Kubernetes](https://github.com/zitrax1/devops-netology/blob/main/kuber/kuber_10.md)
+
+
+##  Cloud providers
+1. [Залиський Сергей.Kubernetes. Причины появления. Организация сети»](https://github.com/zitrax1/devops-netology/blob/main/cloud_provider/cloud_1.md)
