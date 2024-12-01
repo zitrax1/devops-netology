@@ -52,3 +52,4 @@
 
 ##  Cloud providers
 1. [Залиський Сергей.Kubernetes. Причины появления. Организация сети»](https://github.com/zitrax1/devops-netology/blob/main/cloud_provider/cloud_1.md)
+2. [Залиський Сергей.Kubernetes. Причины появления. Организация сети»](https://github.com/zitrax1/devops-netology/blob/main/cloud_provider/cloud_2.md)
