@@ -15,8 +15,8 @@
 
 ### Решение:
 
-1) Задание 1 ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/cloud_provider/img/https.jpg)
-2) Задание 1 ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/cloud_provider/img/crt.jpg)
+1) Задание 2 ![screenshot-1](https://github.com/zitrax1/devops-netology/blob/main/cloud_provider/img/https.jpg)
+2) Задание 2 ![screenshot-2](https://github.com/zitrax1/devops-netology/blob/main/cloud_provider/img/crt.jpg)
 
 
 
